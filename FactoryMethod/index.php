@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use FactoryMethod\PostCreator\FacebookPoster;
 use FactoryMethod\PostCreator\InstagramPoster;
