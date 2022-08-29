@@ -33,3 +33,4 @@ Learn and Understand Design Pattern In PHP Language
 ### References:
 - [RefactorGuru Design Patterns](https://refactoring.guru/design-patterns)
 - [Head First Design Patterns 2E](https://www.amazon.in/Head-First-Design-Patterns-Object-Oriented/dp/9385889753)
+- [Cheat Sheet](/Design%20Patterns.pdf) By Jason S. McDonald Based On Design Patterns: Elements of Reusable Object-Oriented Software
