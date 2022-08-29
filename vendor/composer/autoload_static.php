@@ -7,20 +7,150 @@ namespace Composer\Autoload;
 class ComposerStaticInitf79b1d16ee392a0135f6724cbf3b018e
 {
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'Visitor\\' => 8,
+        ),
+        'T' => 
+        array (
+            'TemplateMethod\\' => 15,
+        ),
+        'S' => 
+        array (
+            'Strategy\\' => 9,
+            'State\\' => 6,
+            'Singleton\\' => 10,
+        ),
+        'P' => 
+        array (
+            'Proxy\\' => 6,
+            'Prototype\\' => 10,
+        ),
+        'O' => 
+        array (
+            'Observer\\' => 9,
+        ),
+        'M' => 
+        array (
+            'Memento\\' => 8,
+            'Mediator\\' => 9,
+        ),
+        'I' => 
+        array (
+            'Iterator\\' => 9,
+        ),
         'F' => 
         array (
+            'Flyweight\\' => 10,
             'FactoryMethod\\' => 14,
+            'Facade\\' => 7,
+        ),
+        'D' => 
+        array (
+            'Decorator\\' => 10,
+        ),
+        'C' => 
+        array (
+            'Composite\\' => 10,
+            'Command\\' => 8,
+            'ChainResponsibility\\' => 20,
+        ),
+        'B' => 
+        array (
+            'Builder\\' => 8,
+            'Bridge\\' => 7,
         ),
         'A' => 
         array (
+            'Adapter\\' => 8,
             'AbstractFactory\\' => 16,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Visitor\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Visitor',
+        ),
+        'TemplateMethod\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/TemplateMethod',
+        ),
+        'Strategy\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Strategy',
+        ),
+        'State\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/State',
+        ),
+        'Singleton\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Singleton',
+        ),
+        'Proxy\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Proxy',
+        ),
+        'Prototype\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Prototype',
+        ),
+        'Observer\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Observer',
+        ),
+        'Memento\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Memento',
+        ),
+        'Mediator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Mediator',
+        ),
+        'Iterator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Iterator',
+        ),
+        'Flyweight\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Flyweight',
+        ),
         'FactoryMethod\\' => 
         array (
             0 => __DIR__ . '/../..' . '/FactoryMethod',
+        ),
+        'Facade\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Facade',
+        ),
+        'Decorator\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Decorator',
+        ),
+        'Composite\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Composite',
+        ),
+        'Command\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Command',
+        ),
+        'ChainResponsibility\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/ChainResponsibility',
+        ),
+        'Builder\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Builder',
+        ),
+        'Bridge\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Bridge',
+        ),
+        'Adapter\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Adapter',
         ),
         'AbstractFactory\\' => 
         array (
