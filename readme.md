@@ -10,8 +10,8 @@ Learn and Understand Design Pattern In PHP Language
    - Prototype
    - Singleton
 2. Structural Design Patterns (7)
-   - Adapter
-   - Bridge
+   - [Adapter](Structural/Adapter/readme.md)
+   - [Bridge](Structural/Bridge/readme.md)
    - Composite
    - Decorator
    - Facade

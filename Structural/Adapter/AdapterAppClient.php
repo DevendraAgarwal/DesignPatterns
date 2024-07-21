@@ -4,7 +4,7 @@ namespace Structural\Adapter;
 
 use Structural\Adapter\NotificationService\Notification;
 
-class AppClient {
+class AdapterAppClient {
 
     /**
      * sendNotification

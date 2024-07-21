@@ -2,13 +2,13 @@
 
 require_once '__DIR__/../vendor/autoload.php';
 
-use Structural\Adapter\AppClient;
+use Structural\Adapter\AdapterAppClient;
 use Structural\Adapter\NotificationProviders\SlackProvider;
 use Structural\Adapter\NotificationService\EmailNotificationService;
 use Structural\Adapter\NotificationService\SlackNotificationService;
 
 // Create Client App
-$app = new AppClient();
+$app = new AdapterAppClient();
 
 // Send Email Notification
 echo "Client code is designed correctly and works with email notifications:\n";
