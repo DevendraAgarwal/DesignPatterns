@@ -7,165 +7,37 @@ namespace Composer\Autoload;
 class ComposerStaticInitf79b1d16ee392a0135f6724cbf3b018e
 {
     public static $prefixLengthsPsr4 = array (
-        'V' => 
-        array (
-            'Visitor\\' => 8,
-        ),
-        'T' => 
-        array (
-            'TemplateMethod\\' => 15,
-        ),
         'S' => 
         array (
-            'Strategy\\' => 9,
-            'State\\' => 6,
-            'Singleton\\' => 10,
-        ),
-        'P' => 
-        array (
-            'Proxy\\' => 6,
-            'Prototype\\' => 10,
-        ),
-        'O' => 
-        array (
-            'Observer\\' => 9,
-        ),
-        'M' => 
-        array (
-            'Memento\\' => 8,
-            'Mediator\\' => 9,
-        ),
-        'I' => 
-        array (
-            'Iterator\\' => 9,
-        ),
-        'F' => 
-        array (
-            'Flyweight\\' => 10,
-            'FactoryMethod\\' => 14,
-            'Facade\\' => 7,
-        ),
-        'D' => 
-        array (
-            'Decorator\\' => 10,
+            'Structural\\' => 11,
         ),
         'C' => 
         array (
-            'Composite\\' => 10,
-            'Command\\' => 8,
-            'ChainResponsibility\\' => 20,
+            'Creational\\' => 11,
         ),
         'B' => 
         array (
-            'Builder\\' => 8,
-            'Bridge\\' => 7,
-        ),
-        'A' => 
-        array (
-            'Adapter\\' => 8,
-            'AbstractFactory\\' => 16,
+            'Behavioral\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Visitor\\' => 
+        'Structural\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Visitor',
+            0 => __DIR__ . '/../..' . '/Structural',
         ),
-        'TemplateMethod\\' => 
+        'Creational\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/TemplateMethod',
+            0 => __DIR__ . '/../..' . '/Creational',
         ),
-        'Strategy\\' => 
+        'Behavioral\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/Strategy',
-        ),
-        'State\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/State',
-        ),
-        'Singleton\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Singleton',
-        ),
-        'Proxy\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Proxy',
-        ),
-        'Prototype\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Prototype',
-        ),
-        'Observer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Observer',
-        ),
-        'Memento\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Memento',
-        ),
-        'Mediator\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Mediator',
-        ),
-        'Iterator\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Iterator',
-        ),
-        'Flyweight\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Flyweight',
-        ),
-        'FactoryMethod\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/FactoryMethod',
-        ),
-        'Facade\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Facade',
-        ),
-        'Decorator\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Decorator',
-        ),
-        'Composite\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Composite',
-        ),
-        'Command\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Command',
-        ),
-        'ChainResponsibility\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/ChainResponsibility',
-        ),
-        'Builder\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Builder',
-        ),
-        'Bridge\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Bridge',
-        ),
-        'Adapter\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/Adapter',
-        ),
-        'AbstractFactory\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/AbstractFactory',
+            0 => __DIR__ . '/../..' . '/Behavioral',
         ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'FactoryMethod\\PostCreator\\FacebookPoster' => __DIR__ . '/../..' . '/FactoryMethod/PostCreator/FacebookPoster.php',
-        'FactoryMethod\\PostCreator\\InstagramPoster' => __DIR__ . '/../..' . '/FactoryMethod/PostCreator/InstagramPoster.php',
-        'FactoryMethod\\PostCreator\\PostCreator' => __DIR__ . '/../..' . '/FactoryMethod/PostCreator/PostCreator.php',
-        'FactoryMethod\\SocialNetworkConnector\\FacebookConnector' => __DIR__ . '/../..' . '/FactoryMethod/SocialNetworkConnector/FacebookConnector.php',
-        'FactoryMethod\\SocialNetworkConnector\\InstagramConnector' => __DIR__ . '/../..' . '/FactoryMethod/SocialNetworkConnector/InstagramConnector.php',
-        'FactoryMethod\\SocialNetworkConnector\\SocialNetworkConnector' => __DIR__ . '/../..' . '/FactoryMethod/SocialNetworkConnector/SocialNetworkConnector.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

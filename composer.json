@@ -1,28 +1,9 @@
 {
     "autoload": {
         "psr-4": {
-            "FactoryMethod\\" : "FactoryMethod/",
-            "AbstractFactory\\" : "AbstractFactory/",
-            "Builder\\" : "Builder/",
-            "Prototype\\" : "Prototype/",
-            "Singleton\\" : "Singleton/",
-            "Adapter\\" : "Adapter/",
-            "Bridge\\" : "Bridge/",
-            "Composite\\" : "Composite/",
-            "Decorator\\" : "Decorator/",
-            "Facade\\" : "Facade/",
-            "Flyweight\\" : "Flyweight/",
-            "Proxy\\" : "Proxy/",
-            "ChainResponsibility\\" : "ChainResponsibility/",
-            "Command\\" : "Command/",
-            "Iterator\\" : "Iterator/",
-            "Mediator\\" : "Mediator/",
-            "Memento\\" : "Memento/",
-            "Observer\\" : "Observer/",
-            "State\\" : "State/",
-            "Strategy\\" : "Strategy/",
-            "TemplateMethod\\" : "TemplateMethod/",
-            "Visitor\\" : "Visitor/"
+            "Creational\\" : "Creational/",
+            "Structural\\" : "Structural/",
+            "Behavioral\\" : "Behavioral/"
         }
     }
 }
