@@ -12,12 +12,12 @@ Learn and Understand Design Pattern In PHP Language
 2. Structural Design Patterns (7)
    - [Adapter](Structural/Adapter/readme.md)
    - [Bridge](Structural/Bridge/readme.md)
-   - Composite
+   - [Composite](Structural/Composite/readme.md)
    - Decorator
    - Facade
    - Flyweight
    - Proxy
-3. Behaviroal Design Patterns (10)
+3. Behavioral Design Patterns (10)
    - Chain Of Responsibility
    - Command
    - Iterator
