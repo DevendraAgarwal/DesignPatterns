@@ -1,19 +1,18 @@
 <?php
 
-require '../vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
-use FactoryMethod\PostCreator\FacebookPoster;
-use FactoryMethod\PostCreator\InstagramPoster;
+use Creational\FactoryMethod\PostCreator\FacebookPoster;
+use Creational\FactoryMethod\PostCreator\InstagramPoster;
 
-use FactoryMethod\PostCreator\PostCreator;
+use Creational\FactoryMethod\PostCreator\PostCreator;
 
-class PostCreatorService 
-{
+class PostCreatorService {
     /**
      * The client code can work with any subclass of SocialNetworkPoster since it
      * doesn't depend on concrete classes.
      */
-    function clientCode(PostCreator $creator)
+    public function clientCode(PostCreator $creator)
     {
         // ...
         $creator->post("Hello world!");
@@ -22,8 +21,8 @@ class PostCreatorService
 }
 
 $service = new PostCreatorService();
-print("Test Facebook Poster\n");
+print "Test Facebook Poster\n";
 $service->clientCode(new FacebookPoster('test@gmail.com','myPassword'));
 
-print("Test Instagram Poster\n");
+print "Test Instagram Poster\n";
 $service->clientCode(new InstagramPoster('test@gmail.com','myPassword'));
