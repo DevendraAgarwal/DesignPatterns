@@ -25,14 +25,17 @@ class ComposerStaticInitf79b1d16ee392a0135f6724cbf3b018e
         'Structural\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Structural',
+            1 => __DIR__ . '/../..' . '/Structural',
         ),
         'Creational\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Creational',
+            1 => __DIR__ . '/../..' . '/Creational',
         ),
         'Behavioral\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Behavioral',
+            1 => __DIR__ . '/../..' . '/Behavioral',
         ),
     );
 

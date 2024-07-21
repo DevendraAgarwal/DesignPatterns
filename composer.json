@@ -1,5 +1,21 @@
 {
+    "authors": [
+        {
+            "name": "Devendra Agarwal",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
     "autoload": {
+        "psr-4": {
+            "Creational\\" : "Creational/",
+            "Structural\\" : "Structural/",
+            "Behavioral\\" : "Behavioral/"
+        }
+    },
+    "autoload-dev": {
         "psr-4": {
             "Creational\\" : "Creational/",
             "Structural\\" : "Structural/",

@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Structural\\' => array($baseDir . '/Structural'),
-    'Creational\\' => array($baseDir . '/Creational'),
-    'Behavioral\\' => array($baseDir . '/Behavioral'),
+    'Structural\\' => array($baseDir . '/Structural', $baseDir . '/Structural'),
+    'Creational\\' => array($baseDir . '/Creational', $baseDir . '/Creational'),
+    'Behavioral\\' => array($baseDir . '/Behavioral', $baseDir . '/Behavioral'),
 );
