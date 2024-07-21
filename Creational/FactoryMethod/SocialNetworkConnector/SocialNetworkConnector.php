@@ -1,6 +1,6 @@
 <?php
 
-namespace FactoryMethod\SocialNetworkConnector;
+namespace Creational\FactoryMethod\SocialNetworkConnector;
 
 interface SocialNetworkConnector
 {

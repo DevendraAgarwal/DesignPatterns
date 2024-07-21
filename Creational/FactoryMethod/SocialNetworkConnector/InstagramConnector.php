@@ -1,15 +1,16 @@
 <?php
 
-namespace FactoryMethod\SocialNetworkConnector;
+namespace Creational\FactoryMethod\SocialNetworkConnector;
 
-use FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
+use Creational\FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
 
 /**
  * This Concrete Product implements the Instagram API.
  */
 class InstagramConnector implements SocialNetworkConnector
 {
-    private $email, $password;
+    private $email;
+    private $password;
 
     public function __construct(string $email, string $password)
     {

@@ -4,8 +4,8 @@ Learn and Understand Design Pattern In PHP Language
 
 ### Catalogue:
 1. Creational Design Patterns (5)
-   - [Factory Method](FactoryMethod/readme.md)
-   - [Abstract Factory](AbstractFactory/readme.md)
+   - [Factory Method](Creational/FactoryMethod/readme.md)
+   - [Abstract Factory](Creational/AbstractFactory/readme.md)
    - Builder
    - Prototype
    - Singleton

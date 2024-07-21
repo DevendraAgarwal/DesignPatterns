@@ -1,15 +1,16 @@
 <?php
 
-namespace FactoryMethod\SocialNetworkConnector;
+namespace Creational\FactoryMethod\SocialNetworkConnector;
 
-use FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
+use Creational\FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
 
 /**
  * This Concrete Product implements the Facebook API.
  */
 class FacebookConnector implements SocialNetworkConnector
 {
-    private $login, $password;
+    private $login;
+    private $password;
 
     public function __construct(string $login, string $password)
     {

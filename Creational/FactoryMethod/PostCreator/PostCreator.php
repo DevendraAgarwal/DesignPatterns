@@ -1,9 +1,9 @@
 <?php
-namespace FactoryMethod\PostCreator;
+namespace Creational\FactoryMethod\PostCreator;
 
-use FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
+use Creational\FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
 
-abstract class PostCreator 
+abstract class PostCreator
 {
     /**
      * The actual factory method. Note that it returns the abstract connector.

@@ -1,10 +1,10 @@
 <?php
 
-namespace FactoryMethod\PostCreator;
+namespace Creational\FactoryMethod\PostCreator;
 
-use FactoryMethod\PostCreator\PostCreator;
-use FactoryMethod\SocialNetworkConnector\InstagramConnector;
-use FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
+use Creational\FactoryMethod\PostCreator\PostCreator;
+use Creational\FactoryMethod\SocialNetworkConnector\InstagramConnector;
+use Creational\FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
 
 /**
  * This Concrete Creator supports Facebook. Remember that this class also
@@ -13,7 +13,8 @@ use FactoryMethod\SocialNetworkConnector\SocialNetworkConnector;
  */
 class InstagramPoster extends PostCreator
 {
-    private $login, $password;
+    private $login;
+    private $password;
 
     public function __construct(string $login, string $password)
     {
