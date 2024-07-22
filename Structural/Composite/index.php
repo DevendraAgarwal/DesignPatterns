@@ -1,8 +1,8 @@
 <?php
 
-use Structural\Composite\CreateProductForm;
-
 require_once '__DIR__/../vendor/autoload.php';
+
+use Structural\Composite\CreateProductForm;
 
 $productForm = new CreateProductForm();
 

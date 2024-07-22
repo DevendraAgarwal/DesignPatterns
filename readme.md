@@ -13,7 +13,7 @@ Learn and Understand Design Pattern In PHP Language
    - [Adapter](Structural/Adapter/readme.md)
    - [Bridge](Structural/Bridge/readme.md)
    - [Composite](Structural/Composite/readme.md)
-   - Decorator
+   - [Decorator](Structural/Decorator/readme.md)
    - Facade
    - Flyweight
    - Proxy
