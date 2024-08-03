@@ -11,7 +11,7 @@ namespace Structural\Bridge\Renderers;
  * Implementation.
  */
 interface Renderer
-{    
+{
     /**
      * renderTitle
      *

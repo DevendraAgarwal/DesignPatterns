@@ -21,7 +21,7 @@ class Product
      * @param string $description
      * @param string $image
      * @param float $price
-     * 
+     *
      * @return void
      */
     public function __construct(
